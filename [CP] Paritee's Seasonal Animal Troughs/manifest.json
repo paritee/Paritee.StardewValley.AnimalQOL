@@ -1,0 +1,18 @@
+{
+   "Name": "Paritee's Seasonal Animal Troughs",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "A seasonal replacement for all troughs as buildings.",
+   "UniqueID": "Paritee.SeasonalAnimalTroughs",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:0000" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+         "UniqueID": "Paritee.AnimalTroughs",
+         "IsRequired": true
+      }
+   ]
+}
