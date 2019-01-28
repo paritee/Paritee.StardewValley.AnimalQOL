@@ -3,7 +3,7 @@
   "Changes": [
     {
       "Type": "Trough",
-      "Data": "335 150/2/1/-1/-1/-1/-1/null/Trough/Provides water for your animals./Buildings/none/48/80/-1/null/Farm/250/false/0",
+      "Data": "335 100/2/1/-1/-1/-1/-1/null/Trough/Provides water for your animals./Buildings/none/48/80/-1/null/Farm/250/false/0",
       "Asset": "assets/trough.png",
       "Seasonal": false,
     }
