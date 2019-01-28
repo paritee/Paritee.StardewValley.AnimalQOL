@@ -1,0 +1,12 @@
+{
+   "Name": "Paritee's Gender-Neutral Farm Animals",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Remove association of gender for farm animals",
+   "UniqueID": "Paritee.GenderNeutralFarmAnimals",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3289" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

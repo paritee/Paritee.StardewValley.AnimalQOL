@@ -1,0 +1,12 @@
+{
+   "Name": "Paritee's Riding Helmet",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Replaces the Bowler Hat with a Riding Helmet",
+   "UniqueID": "Paritee.RidingHelmet",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3288" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

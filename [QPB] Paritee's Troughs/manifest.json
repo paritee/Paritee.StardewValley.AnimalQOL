@@ -1,0 +1,12 @@
+{
+   "Name": "Paritee's Troughs",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Adds a trough to be purchased from Robin",
+   "UniqueID": "Paritee.Troughs",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:0000" ],
+   "ContentPackFor": {
+      "UniqueID": "Paritee.ContentPatchBuildings"
+   }
+}

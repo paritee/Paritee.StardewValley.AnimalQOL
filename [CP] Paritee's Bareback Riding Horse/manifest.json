@@ -1,0 +1,12 @@
+{
+   "Name": "Paritee's Bareback Riding Horse",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Replaces your Horse with a tackless version",
+   "UniqueID": "Paritee.BarebackRidingHorse",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3273" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,320 @@
+{
+  "Format": "1.5",
+  "Changes": [
+
+    // ------------------------------------------------------------------------
+    // Sprites
+    // ------------------------------------------------------------------------
+
+    // Replace udders icon with a bottle
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/Cursors_AllowReproduction.png",
+      "ToArea": { "X": 128, "Y": 393, "Width": 18, "Height": 9 }
+    },
+
+    // ------------------------------------------------------------------------
+    // Strings
+    // ------------------------------------------------------------------------
+
+    // Remove associated gender with pregnancy
+    {
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "AnimalQuery_AllowReproduction": "Allow Reproduction",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "AnimalQuery_AllowReproduction": "Reproduktion erlauben",
+      },
+      "When": { "Language": "de" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "AnimalQuery_AllowReproduction": "Permitir la reproducción",
+      },
+      "When": { "Language": "es" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "AnimalQuery_AllowReproduction": "再生を許可する",
+      },
+      "When": { "Language": "ja" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "AnimalQuery_AllowReproduction": "Permitir a reprodução",
+      },
+      "When": { "Language": "pt" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "AnimalQuery_AllowReproduction": "Разрешить репродукцию",
+      },
+      "When": { "Language": "ru" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "AnimalQuery_AllowReproduction": "允许复制",
+      },
+      "When": { "Language": "zh" },
+    },
+
+    // Remove associated gender with birth
+    {
+      "Action": "EditData",
+      "Target": "Strings/Events",
+      "Entries": {
+        "AnimalBirth": "During the night, {0} brought a baby {1} into the world.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Events",
+      "Entries": {
+        "AnimalBirth": "Letzte Nacht brachte {1} {0} ihre zur Welt Nachwuchs!",
+      },
+      "When": { "Language": "de" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Events",
+      "Entries": {
+        "AnimalBirth": "Durante la noche {0} trajo un bebé {1} al mundo.",
+      },
+      "When": { "Language": "es" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Events",
+      "Entries": {
+        "AnimalBirth": "夜のうちに、{0}は赤ちゃん{1}を世界に持ち込みました！",
+      },
+      "When": { "Language": "ja" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Events",
+      "Entries": {
+        "AnimalBirth": "Durante a noite, {0} trouxe um bebê {1} para o mundo.",
+      },
+      "When": { "Language": "pt" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Events",
+      "Entries": {
+        "AnimalBirth": "{0} сегодня принес младенца {1} в мир.",
+      },
+      "When": { "Language": "ru" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Events",
+      "Entries": {
+        "AnimalBirth": "到了晚上，{0}带了一个婴儿{1}进入这个世界。",
+      },
+      "When": { "Language": "zh" },
+    },
+
+    // Remove gender from purchase dialogue
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "PurchaseAnimalsMenu.cs.11311": "Great! I'll send little {0} to their new home right away.",
+        "PurchaseAnimalsMenu.cs.11314": "Great! I'll send little {0} to their new home right away.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "PurchaseAnimalsMenu.cs.11311": "Sehr schön! Ich sende die kleine {0} sofort in das neue Zuhause.",
+        "PurchaseAnimalsMenu.cs.11314": "Sehr schön! Ich sende die kleine {0} sofort in das neue Zuhause.",
+      },
+      "When": { "Language": "de" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "PurchaseAnimalsMenu.cs.11311": "¡Guay! Enviaré el {0} a su nuevo hogar inmediatamente.",
+        "PurchaseAnimalsMenu.cs.11314": "¡Guay! Enviaré el {0} a su nuevo hogar inmediatamente.",
+      },
+      "When": { "Language": "es" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "PurchaseAnimalsMenu.cs.11311": "毎度どうも！{0}はすぐにあたらしいおうちに送っておくね。", // No change
+        "PurchaseAnimalsMenu.cs.11314": "毎度どうも！{0}はすぐにあたらしいおうちに送っておくね。", // No change
+      },
+      "When": { "Language": "ja" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "PurchaseAnimalsMenu.cs.11311": "Ótimo! Vou mandar {0} para a casa imediatamente.", // No change
+        "PurchaseAnimalsMenu.cs.11314": "Ótimo! Vou mandar {0} para a casa imediatamente.", // No change
+      },
+      "When": { "Language": "pt" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "PurchaseAnimalsMenu.cs.11311": "В совершенстве! {0} уже ждет вас в новом доме.",
+        "PurchaseAnimalsMenu.cs.11314": "В совершенстве! {0} уже ждет вас в новом доме.",
+      },
+      "When": { "Language": "ru" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "PurchaseAnimalsMenu.cs.11311": "很好！我立即向他们的新家发了一个小{0}。",
+        "PurchaseAnimalsMenu.cs.11314": "很好！我立即向他们的新家发了一个小{0}。",
+      },
+      "When": { "Language": "zh" },
+    },
+
+    // Remove gender from mood messages
+    {
+      "Action": "EditData",
+      "Target": "Strings/FarmAnimals",
+      "Entries": {
+        "MoodMessage_NewHome_Baby_Male": "{0}'s still a little clumsy from being born. They're curious about their new world.",
+        "MoodMessage_NewHome_Baby_Female": "{0}'s still a little clumsy from being born. They're curious about their new world.",
+        "MoodMessage_NewHome_Adult_Male_1": "{0} seems curious, but a little cautious. They're getting used to the new home.",
+        "MoodMessage_NewHome_Adult_Male_2": "{0} seems curious, but a little cautious. It's a strange new world.", // No change
+        "MoodMessage_NewHome_Adult_Female_1": "{0} seems curious, but a little cautious. They're getting used to the new home.",
+        "MoodMessage_NewHome_Adult_Female_2": "{0} seems curious, but a little cautious. It's a strange new world.", // No change
+        "MoodMessage_LeftOutsideAtNight_Male": "{0} was left outside with the door closed last night... They're grumpy.",
+        "MoodMessage_LeftOutsideAtNight_Female": "{0} was left outside with the door closed last night... They're grumpy.",
+        "MoodMessage_DisturbedByDog_Male": "{0} looks stressed and paranoid today. It seems like something bad happened last night.", // No change
+        "MoodMessage_DisturbedByDog_Female": "{0} looks stressed and paranoid today. It seems like something bad happened last night.", // No change
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/FarmAnimals",
+      "Entries": {
+        "MoodMessage_NewHome_Baby_Male": "{0} ist nach der Geburt immer noch etwas peinlich. Sie sind neugierig auf ihre neue Welt.",
+        "MoodMessage_NewHome_Baby_Female": "{0} ist nach der Geburt immer noch etwas peinlich. Sie sind neugierig auf ihre neue Welt.",
+        "MoodMessage_NewHome_Adult_Male_1": "{0} scheint neugierig, aber ein bisschen vorsichtig. Sie gewöhnen sich an ihr neues Zuhause.",
+        "MoodMessage_NewHome_Adult_Male_2": "{0} scheint neugierig, aber ein wenig vorsichtig. Es ist eine merkwürdige neue Welt.", // No change
+        "MoodMessage_NewHome_Adult_Female_1": "{0} scheint neugierig, aber ein bisschen vorsichtig. Sie gewöhnen sich an ihr neues Zuhause.",
+        "MoodMessage_NewHome_Adult_Female_2": "{0} scheint neugierig, aber ein wenig vorsichtig. Es ist eine merkwürdige neue Welt.", // No change
+        "MoodMessage_LeftOutsideAtNight_Male": "{0} wurde letzte Nacht vor verschlossener Tür gelassen... Sie sehen beleidigt aus.",
+        "MoodMessage_LeftOutsideAtNight_Female": "{0} wurde letzte Nacht vor verschlossener Tür gelassen... Sie sehen beleidigt aus.",
+        "MoodMessage_DisturbedByDog_Male": "{0} sieht heute gestresst und paranoid aus. Letzte Nacht scheint etwas Schlimmes passiert zu sein.", // No change
+        "MoodMessage_DisturbedByDog_Female": "{0} sieht heute gestresst und paranoid aus. Letzte Nacht scheint etwas Schlimmes passiert zu sein.", // No change
+      },
+      "When": { "Language": "de" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/FarmAnimals",
+      "Entries": {
+        "MoodMessage_NewHome_Baby_Male": "{0} es un poco torpe todavía. Tienen curiosidad por el mundo en el que nacieron.",
+        "MoodMessage_NewHome_Baby_Female": "{0} es un poco torpe todavía. Tienen curiosidad por el mundo en el que nacieron.",
+        "MoodMessage_NewHome_Adult_Male_1": "{0} siente curiosidad, pero ten cuidado. Se están acostumbrando a su nuevo hogar.",
+        "MoodMessage_NewHome_Adult_Male_2": "{0} siente curiosidad, pero va con cuidado. Es un mundo nuevo y extraño.", // No change
+        "MoodMessage_NewHome_Adult_Female_1": "{0} siente curiosidad, pero ten cuidado. Se están acostumbrando a su nuevo hogar.",
+        "MoodMessage_NewHome_Adult_Female_2": "{0} siente curiosidad, pero va con cuidado. Es un mundo nuevo y extraño.", // No change
+        "MoodMessage_LeftOutsideAtNight_Male": "{0} se quedó fuera con la puerta cerrada ayer por la noche... Están de mal humor.",
+        "MoodMessage_LeftOutsideAtNight_Female": "{0} se quedó fuera con la puerta cerrada ayer por la noche... Están de mal humor.",
+        "MoodMessage_DisturbedByDog_Male": "{0} parece nervioso y paranoico hoy. Como si algo malo hubiera ocurrido anoche.", // No change
+        "MoodMessage_DisturbedByDog_Female": "{0} parece nervioso y paranoico hoy. Como si algo malo hubiera ocurrido anoche.", // No change
+      },
+      "When": { "Language": "zh" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/FarmAnimals",
+      "Entries": {
+        "MoodMessage_NewHome_Baby_Male": "生まれたばかりの{0}はよちよちあるいている。あたらしい世界に興味しんしんだ。", // No change
+        "MoodMessage_NewHome_Baby_Female": "生まれたばかりの{0}はよちよちあるいている。あたらしい世界に興味しんしんだ。", // No change
+        "MoodMessage_NewHome_Adult_Male_1": "{0}は注目を集めています。彼らは徐々に新しい家に近づいているようだ。",
+        "MoodMessage_NewHome_Adult_Male_2": "{0}は注意ぶかくあちこち見まわっている。新しい世界は不思議なものだ。", // No change
+        "MoodMessage_NewHome_Adult_Female_1": "{0}は注目を集めています。彼らは徐々に新しい家に近づいているようだ。",
+        "MoodMessage_NewHome_Adult_Female_2": "{0}は注意ぶかくあちこち見まわっている。新しい世界は不思議なものだ。", // No change
+        "MoodMessage_LeftOutsideAtNight_Male": "{0}はフキゲンだ。きのうの夜、外ですごしたようだ…", // No change
+        "MoodMessage_LeftOutsideAtNight_Female": "{0}はフキゲンだ。きのうの夜、外ですごしたようだ…", // No change
+        "MoodMessage_DisturbedByDog_Male": "{0}はビクビクしているみたい。きのうの夜、なにかイヤなことがおきたようだ…", // No change
+        "MoodMessage_DisturbedByDog_Female": "{0}はビクビクしているみたい。きのうの夜、なにかイヤなことがおきたようだ…", // No change
+      },
+      "When": { "Language": "ja" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/FarmAnimals",
+      "Entries": {
+        "MoodMessage_NewHome_Baby_Male": "{0} ainda é um pouco desajeitado. Eles são tão curiosos sobre o mundo.",
+        "MoodMessage_NewHome_Baby_Female": "{0} ainda é um pouco desajeitado. Eles são tão curiosos sobre o mundo.",
+        "MoodMessage_NewHome_Adult_Male_1": "{0} parece curioso, mas um pouco tímido. Eles estão se acostumando com a nova casa.",
+        "MoodMessage_NewHome_Adult_Male_2": "{0} parece curioso, mas um pouco tímido. Que mundo estranho.", // No change
+        "MoodMessage_NewHome_Adult_Female_1": "{0} parece curioso, mas um pouco tímido. Eles estão se acostumando com a nova casa.",
+        "MoodMessage_NewHome_Adult_Female_2": "{0} parece curioso, mas um pouco tímido. Que mundo estranho.", // No change
+        "MoodMessage_LeftOutsideAtNight_Male": "{0} foi deixado do lado de fora com a porta fechada na noite passada ... eles estão mal humorados.",
+        "MoodMessage_LeftOutsideAtNight_Female": "{0} foi deixado do lado de fora com a porta fechada na noite passada ... eles estão mal humorados.",
+        "MoodMessage_DisturbedByDog_Male": "{0} parece tenso e paranoico. Parece que algo ruim aconteceu na noite passada.", // No change
+        "MoodMessage_DisturbedByDog_Female": "{0} parece tenso e paranoico. Parece que algo ruim aconteceu na noite passada.", // No change
+      },
+      "When": { "Language": "zh" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/FarmAnimals",
+      "Entries": {
+        "MoodMessage_NewHome_Baby_Male": "在{0}之后出生有点笨拙。他们对新世界感到好奇。",
+        "MoodMessage_NewHome_Baby_Female": "在{0}之后出生有点笨拙。他们对新世界感到好奇。",
+        "MoodMessage_NewHome_Adult_Male_1": "{0}很好奇，但有点谨慎。他们逐渐适应新家。",
+        "MoodMessage_NewHome_Adult_Male_2": "{0}很好奇，但有点谨慎。对他们来说，这是一个奇怪的新世界。",
+        "MoodMessage_NewHome_Adult_Female_1": "{0}很好奇，但有点谨慎。他们逐渐适应新家。",
+        "MoodMessage_NewHome_Adult_Female_2": "{0}很好奇，但有点谨慎。对他们来说，这是一个奇怪的新世界。",
+        "MoodMessage_LeftOutsideAtNight_Male": "昨晚{0}被锁在了房子外面......他们非常生气。",
+        "MoodMessage_LeftOutsideAtNight_Female": "昨晚{0}被锁在了房子外面......他们非常生气。",
+        "MoodMessage_DisturbedByDog_Male": "{0}今天似乎很紧张不安。昨晚应该发生了些事情。", // No change
+        "MoodMessage_DisturbedByDog_Female": "{0}今天似乎很紧张不安。昨晚应该发生了些事情。", // No change
+      },
+      "When": { "Language": "zh" },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/FarmAnimals",
+      "Entries": {
+        "MoodMessage_NewHome_Baby_Male": "{0} родился совсем недавно и все еще неустойчив на ногах, но они уже изучают новый мир.",
+        "MoodMessage_NewHome_Baby_Female": "{0} родился совсем недавно и все еще неустойчив на ногах, но они уже изучают новый мир.",
+        "MoodMessage_NewHome_Adult_Male_1": "{0} смотрит вокруг - осторожно, но с любопытством. Они привыкают к новому дому.",
+        "MoodMessage_NewHome_Adult_Male_2": "{0} осматривается - опасливо, но с любопытством. Новый мир такой чудной.", // No change
+        "MoodMessage_NewHome_Adult_Female_1": "{0} смотрит вокруг - осторожно, но с любопытством. Они привыкают к новому дому.",
+        "MoodMessage_NewHome_Adult_Female_2": "{0} осматривается - опасливо, но с любопытством. Новый мир такой чудной.", // No change
+        "MoodMessage_LeftOutsideAtNight_Male": "{0} вчера спал на улице, потому что дверь была заперта ... Они выглядят недовольными.",
+        "MoodMessage_LeftOutsideAtNight_Female": "{0} вчера спал на улице, потому что дверь была заперта ... Они выглядят недовольными.",
+        "MoodMessage_DisturbedByDog_Male": "{0} выглядит сегодня очень удрученным. Похоже, вчера ночью случилось что-то плохое.", // No change
+        "MoodMessage_DisturbedByDog_Female": "{0} выглядит сегодня очень удрученным. Похоже, вчера ночью случилось что-то плохое.", // No change
+      },
+      "When": { "Language": "ru" },
+    },
+
+  ]
+}
