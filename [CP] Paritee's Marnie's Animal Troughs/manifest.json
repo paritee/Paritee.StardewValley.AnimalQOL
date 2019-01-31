@@ -1,0 +1,18 @@
+{
+   "Name": "Paritee's Marnie's Animal Troughs",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Marnie's replacement for all troughs as buildings",
+   "UniqueID": "Paritee.MarniesAnimalTroughs",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3383" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+         "UniqueID": "Paritee.AnimalTroughs",
+         "IsRequired": true
+      }
+   ]
+}
