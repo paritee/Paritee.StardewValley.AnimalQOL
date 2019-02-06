@@ -1,0 +1,12 @@
+{
+   "Name": "Paritee's Animal Run-ins",
+   "Author": "Paritee",
+   "Version": "1.0.0",
+   "Description": "Adds a run-in available for purchase from the carpenter shop",
+   "UniqueID": "Paritee.AnimalRun-ins",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:0000" ],
+   "ContentPackFor": {
+      "UniqueID": "Paritee.QuickPatchBuildings"
+   }
+}

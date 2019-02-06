@@ -1,0 +1,11 @@
+{
+  "Format": "1.0",
+  "Changes": [
+    {
+      "Type": "Animal Run-in",
+      "Data": "388 150 390 75/5/2/-1/-1/-1/-1/null/Animal Run-in/Provides shelter for your animals./Buildings/none/96/96/-1/null/Farm/500",
+      "Asset": "assets/run-in.png",
+      "Seasonal": false,
+    }
+  ]
+}
